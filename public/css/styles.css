@@ -1,3 +1,73 @@
+body {
+    width: 40%;
+    min-width: 1000px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+h1::before {
+    background: ""
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+a {
+    color:  black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1rem;
+    background: lightgrey;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+.footer {
+    border: none;
+    border-top: 1px solid lightgray;
+    padding-top:10px;
+}
+.content {
+    height: 50vh;
+}
+form {
+    margin-top: 10px;
+    margin: auto;
+}
+input {
+    width: 70%;  
+    border-radius: 0.1rem;
+    outline: none;
+    border:2px solid grey;
+    padding: 10px;
+    font-size: 1rem;
+}
+input:focus, input:active {
+    /* box-shadow: 1px 1px 1px 0.5px    lightgrey; */
+    border: 2px solid skyblue;
+}
+button {
+    border-radius: 0.2rem;
+    background: #4386fc;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 20%;
+    font-size: 1rem;
+    border: 2px solid #4386fc;
+    text-shadow: 1px solid black;   
+}
+
 img {
-    width: 800px;
+    height: inherit;
 }
