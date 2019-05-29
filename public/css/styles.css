@@ -39,11 +39,12 @@ p {
 .content {
     height: 50vh;
     display: flex;
+    flex-wrap: wrap;
 }
 form {
     margin-top: 10px;
     display: block; 
-    width: 100%;
+    min-width: 100%;
 }
 input {
     width:70%;
@@ -73,7 +74,10 @@ button {
 img {
     height: inherit;
 }
-
+.displayWeather{
+    line-height: 2;
+    
+}
 .about_des {
     display: inline-block;
     margin: auto;

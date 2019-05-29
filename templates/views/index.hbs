@@ -11,10 +11,11 @@
     {{>header}}
     <p>Use this site to get your weather!</p>
     <div class="content">
-    <form action="/weather" method="GET">
-        <input type="text" placeholder="Location">
-        <button type="submit">Search</button>    
-    </form>
+        <form>
+            <input type="text" placeholder="Location">
+            <button type="submit">Search</button>    
+        </form>
+        <div class="displayWeather"></div>
     </div>
 
     {{>footer}}
